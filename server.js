@@ -42,6 +42,10 @@ app.get(['/https://:original','/http://:original'], (req, res) => {
 });
 
 app.get('/:id', (req, res) => {
+    if (req.params.id == 'favicon.ico') {
+        res.sendStatus(204);
+        return
+    }
     dbClient.connect(dbURL, (err, db) => {
         if (err) return res.end(JSON.stringify({ error : err.message }));
         var collection = db.collection('urls');
