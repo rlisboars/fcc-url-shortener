@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+li {
+    font-weight: 300;
+}
+
+footer {
+    text-align: center;
+    color: darkslategray;
+    font-size: 11px;
+}
+
+.main {
+    margin: 10px 15%;
+}
