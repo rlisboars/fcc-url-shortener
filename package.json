@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rlisboars/fcc-url-shortener#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "ejs": "^2.5.6",
     "express": "^4.15.3",
     "mongodb": "^2.2.27"
